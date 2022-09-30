@@ -76,3 +76,29 @@ const toy2={name: "Rallo mcKing", price: 29}
     console.log(rickAndMortyCharacters.length);
     rickAndMortyCharacters.splice(0,4);
     console.log(rickAndMortyCharacters);
+
+
+
+
+
+
+
+    /*---------------------------------------------------**Iteración #5: Condicionales**----------------------------*/
+    const number1 = 10;
+    const number2 = 20;
+    const number3 = 2;
+    //1.1
+    console.log(number1===10);
+    //1.2
+    console.log(number2/number1==2);
+    //1.3
+    console.log(number1!==number2);
+    //1.4
+    console.log(number3!=number1);
+    //1.5
+    console.log(number3*5==number1);
+    //1.6
+    console.log(number3*5==number1,number1*2==number2);
+    //1.7
+    console.log(number2/2==number1, number1/5==number3);
+
