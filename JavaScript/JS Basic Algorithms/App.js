@@ -30,7 +30,12 @@ console.log("Soy ",(firstName ),(lastName),", tengo",(age),"años y me gustan lo
 //1.3
 const toy1={name:"Buss myYear", price: 19};
 const toy2={name: "Rallo mcKing", price: 29}
-
+console.log(toy1.price + toy2.price);
+//1.4
+let globalBasePrice = 25000;
+const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: 60000};
+const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
+console.log(globalBasePrice + car1.finalPrice + car2.finalPrice);
 
 
 
@@ -102,3 +107,20 @@ const toy2={name: "Rallo mcKing", price: 29}
     //1.7
     console.log(number2/2==number1, number1/5==number3);
 
+
+
+
+
+
+
+    /*----------------------------------------------------------------**Iteración #6: Bucles**---------------------------*/
+    //1.1
+    for (let numberlist=0;numberlist<10;numberlist++){
+        console.log(numberlist);
+    }
+    //1.2
+  
+    //1.3
+    for (let ovejas=0;ovejas<=10;ovejas++){
+        console.log("Intentando dormir 🐑"+ovejas);
+    }
