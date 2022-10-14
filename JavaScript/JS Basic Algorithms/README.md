@@ -1,10 +1,11 @@
 # Bootcamp-Neoland
+
 **Iteración #1: Variables**
 
 ```bash
 1.1 Crea una variable llamada myFavoriteHero, asigna el valor Hulk a ella.
 1.2 Crea una variable llamada x, asigna el valor 50 a ella.
-1.3 Crea una variable llamada 'h' con el valor 5 y otra 'y' con el valor 10. 
+1.3 Crea una variable llamada 'h' con el valor 5 y otra 'y' con el valor 10.
 1.4 Crea una otra variable 'z' y asignale el valor de 'h' + 'y'.
 ```
 
@@ -14,11 +15,11 @@
 1.1 Dado el siguiente javascript, cambia el valor de la propiedad age a 25.
 const character = {name: 'Jack Sparrow', age: 10};
 
-1.2 Declara 3 variables con los nombres y valores siguientes 
-	firstName = 'Jon'; 
-	lastName = 'Snow'; 
-	age = 24; 
-Muestralos por consola de esta forma: 
+1.2 Declara 3 variables con los nombres y valores siguientes
+	firstName = 'Jon';
+	lastName = 'Snow';
+	age = 24;
+Muestralos por consola de esta forma:
 	'Soy Jon Snow, tengo 24 años y me gustan los lobos.'
 
 1.3 Dado el siguiente javascript, imprime con un console.log la suma del precio de
@@ -26,8 +27,8 @@ ambos juguetes.
 const toy1 = {name: 'Buss myYear', price: 19};
 const toy2 = {name: 'Rallo mcKing', price: 29};
 
-1.4 Dado el siguiente javascript, actualiza el valor de la variable globalBasePrice a 25000 
-y actualiza la propiedad finalPrice de todos los coches con el valor de su propiedad 
+1.4 Dado el siguiente javascript, actualiza el valor de la variable globalBasePrice a 25000
+y actualiza la propiedad finalPrice de todos los coches con el valor de su propiedad
 basePrice más el valor de la variable globalBasePrice.
 let globalBasePrice = 10000;
 const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: 60000};
@@ -43,7 +44,7 @@ const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
 
 1.3 Muestra mediante un console el resto de dividir 15 por 9.
 
-1.4 Usa el correcto operador de asignación que resultará en o = 15, 
+1.4 Usa el correcto operador de asignación que resultará en o = 15,
 teniendo dos variables p = 10 y j = 5.
 
 1.5 Usa el correcto operador de asignación que resultará en i = 50,
@@ -63,7 +64,7 @@ const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 1.3 console numero de elementos en el array usando la propiedad correcta de Array.
 const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 
-1.4 Añade 2 elementos al array: "Morty" y "Summer". 
+1.4 Añade 2 elementos al array: "Morty" y "Summer".
 Muestra en consola el último personaje del array
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
 
@@ -118,10 +119,10 @@ if (/* COMPLETAR */) {
 **Iteración #6: Bucles**
 1.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
 
-1.2 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo 
+1.2 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo
 cuando el resto del numero dividido entre 2 sea 0.
 
-1.3 Crea un bucle para conseguir dormir contando ovejas. 
+1.3 Crea un bucle para conseguir dormir contando ovejas.
 Este bucle tiene que dar 10 vueltas, es decir, 10 console.log.
-Muestra por consola un mensaje diciendo 'Intentando dormir 🐑' en cada vuelta del bucle 
+Muestra por consola un mensaje diciendo 'Intentando dormir 🐑' en cada vuelta del bucle
 y cambia el mensaje en la décima vuelta a 'Dormido!'.
